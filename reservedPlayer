@@ -84,8 +84,6 @@ for n in range(len(slopes)):
         optimalK = n + 1
         break
 
-# Plot the elbow
-
 plt.plot(K, distortions, 'bx-')
 plt.axvline(x=optimalK,color='r',linestyle='dashed')
 plt.xlabel('k value')
